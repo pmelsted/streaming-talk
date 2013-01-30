@@ -13,6 +13,7 @@ typedef set<double, greater<double> > mvset;
 
 
 int main(int argc, char** argv) {
+  cin.sync_with_stdio(false);
   size_t k = 0;
   if (argc > 1) {
     stringstream ss(argv[1]);
