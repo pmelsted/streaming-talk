@@ -40,14 +40,14 @@ int main(int argc, char** argv) {
 	// new minvalue, remove maximum, insert new
 	minvals.erase(minvals.begin());
 	minvals.insert(d);
+      }
     }
   }
   // write estimate
   double minest = 0;
   if (minvals.size() > 0) {
     //cout << "min" <<  *minvals.begin() << endl;
-    minest = ((double) k)/(*minvals.begin()) - 1.0;
-    
+    minest = ((double) k)/(*minvals.begin()) - 1.0; 
   }
   cout << minest << endl;    
   return 0;
