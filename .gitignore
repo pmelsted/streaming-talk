@@ -1,21 +1,5 @@
-<<<<<<< HEAD
 stream
 setcount
 *.o
 *.dsym
 *.txt
-=======
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
->>>>>>> edbae269408d79909744125c3111e509d7796253
