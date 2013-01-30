@@ -1,0 +1,5 @@
+stream
+setcount
+*.o
+*.dsym
+*.txt
